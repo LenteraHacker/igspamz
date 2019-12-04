@@ -1,7 +1,4 @@
 #!/bin/bash
-# InstaSpam v1.0
-# github.com/thelinuxchoice/instaspam
-# Author: @linux_choice (You don't become a coder by just changing the credits)
 
 csrftoken=$(curl https://www.instagram.com/accounts/login/ajax -L -i -s | grep "csrftoken" | cut -d "=" -f2 | cut -d ";" -f1)
 
@@ -93,13 +90,14 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not inst
 
 banner() {
 
-printf " \e[1;77m.___                                        \n"                                                \n"
-printf "| _/_  _  __   ______________ _______     __| _/ \n"
-printf "/ __ |\ \/ \/ /  /  ___/ ____/  |  \__  \   / __ | \n"
-printf " / /_/ | \     /   \___ < <_|  |  |  // __ \_/ /_/ | \n"
-printf "\____ |  \/\_/   /____  >__   |____/(____  /\____ | \n"
-printf "     \/               \/   |__|          \/      \/    usersearch \n"
-printf "                                 |_|\e[0m\e[1;92mv1.0 ᴅᴡ sǫᴜᴀᴅ\e[0m
+printf "\e[1;77m  ==== DW SQUAD IGSPAMZ          =         ===                        \n"
+printf " |_   _|         |==       / ===                       \n"
+printf "   | |  _ __  ___| |_ __ _| (___  _ __   __ _ _ __ ___   \n"
+printf "   | | | '_ \/ _=| __/ _\` |\___ \| '_ \ / _\` | '_ \` _ \  \n"
+printf "  _| |_| | | \__ \ || (_| |____) | |_) | (_| | | | | | | \n"
+printf " |===|_| |_|_==/\__\__,_|====/| .__/ \__,_|_| |_| |_| \n"
+printf "                                 | |                     \n"
+printf "                                 |_|\e[0m\e[1;92mv1.0 DW SQUAD\e[0m                     \n"
 printf "\n"
 
 }
