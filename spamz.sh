@@ -90,7 +90,7 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not inst
 
 banner() {
 
-printf "\e[1;77m  ==== DW SQUAD IGSPAMZ          =         ===                        \n"
+printf "\e[1;31m  ==== DW SQUAD IGSPAMZ          =         ===                        \n"
 printf " |_   _|         |==       / ===                       \n"
 printf "   | |  _ __  ___| |_ __ _| (___  _ __   __ _ _ __ ___   \n"
 printf "   | | | '_ \/ _=| __/ _\` |\___ \| '_ \ / _\` | '_ \` _ \  \n"
