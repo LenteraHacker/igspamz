@@ -93,7 +93,7 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not inst
 
 banner() {
 
-printf " \e[1;77m.___                                        .___                                                \n"
+printf " \e[1;77m.___                                        \n"                                                \n"
 printf "| _/_  _  __   ______________ _______     __| _/ \n"
 printf "/ __ |\ \/ \/ /  /  ___/ ____/  |  \__  \   / __ | \n"
 printf " / /_/ | \     /   \___ < <_|  |  |  // __ \_/ /_/ | \n"
